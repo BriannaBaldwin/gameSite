@@ -2,4 +2,9 @@
 
 html {
   background-color: #3D4044;
+  cursor: url("assets/green-arrow-cursor.png"), default;
+
+  .pointer {
+    cursor: url("assets/purple-hand-cursor.png"), default;
+  }
 }
