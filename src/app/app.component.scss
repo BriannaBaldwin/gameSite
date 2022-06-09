@@ -1,0 +1,29 @@
+.content-container {
+  background-color: #3D4044;
+}
+
+nav {
+  height: 10rem;
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.7),rgba(0,0,0,0));
+}
+
+footer {
+  height: 10rem;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.footer-item {
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+    background-color: #212529;
+    height: fit-content;
+  }
+}
