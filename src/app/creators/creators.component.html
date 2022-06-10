@@ -1,0 +1,19 @@
+
+<div class="creators-hero d-flex justify-content-center align-items-center">
+    <h1>Our Creators</h1>
+</div>
+
+<div class='creators-container d-flex justify-content-center'>
+  <div class='creator'  *ngFor="let creator of creators">
+    <img src='{{creator.img}}'> <!-- Creator img -->
+    <span>
+      <span>{{ creator.name }}</span> <!-- Creator name -->
+      <p>{{ creator.about }}</p> <!-- Creator about -->
+      <ul class='justify-content-center list-group list-group-horizontal-md'> <!-- Creator socials -->
+        <li><a href='{{creator.socials.instagram}}' class='custom-pointer'><i class="fa-brands fa-instagram fa-2x"></i></a> <!-- instagram --></li>
+        <li><a href='{{creator.socials.youtube}}' class='custom-pointer'><i class="fa-brands fa-youtube fa-2x"></i></a> <!-- youtube --></li>
+        <li><a href='{{creator.socials.twitch}}' class='custom-pointer'><i class="fa-brands fa-twitch fa-2x"></i></a> <!-- twitch --></li>
+      </ul>
+    </span>
+  </div>
+</div>
