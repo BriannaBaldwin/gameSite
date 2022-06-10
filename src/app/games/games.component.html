@@ -1,0 +1,26 @@
+<div class="games-hero d-flex justify-content-center align-items-center">
+  <h1>Oh, the Games We Play</h1>
+</div>
+
+<div class="games-container d-flex justify-content-center">
+  <div class="game" *ngFor="let game of games">
+    <a target="_blank" href="">
+      <img
+        class="static"
+        src="{{ game.staticLink }}"
+      /><img
+        class="active"
+        src="{{ game.activeLink }}"
+      />
+    </a>
+    <!-- <iframe
+      width="560"
+      height="315"
+      src="{{game.link}}"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe> -->
+  </div>
+</div>

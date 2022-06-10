@@ -1,0 +1,36 @@
+.games-hero {
+  height: 60vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.games-container {
+  height: fit-content;
+
+  .game {
+    max-width: 30%;
+    text-align: center;
+    align-content: space-around;
+    margin: 5rem;
+  }
+
+  .static {
+    position:absolute;
+    background: white;
+  }
+  .static:hover {
+    position:absolute;
+    opacity:0;
+  }
+}
