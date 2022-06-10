@@ -1,17 +1,59 @@
 .hero-container {
-  height: 100ch;
-}
+  height: 100vh;
 
-.hero-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-08/210830-internet-cafe-china-jm-0950-78bef7.jpg");
+  .hero-img {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-08/210830-internet-cafe-china-jm-0950-78bef7.jpg");
     height: 100%;
+  }
+}
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 24px;
 }
 
 .about-container {
+  height: 70vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://images.pexels.com/photos/7915382/pexels-photo-7915382.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .about-button {
+    width: fit-content;
+    height: 4rem;
+    font-size: 20px;
+    border-radius: 0%;
+    box-shadow: 10px 10px 2px 1px #624D7D;
+
+    &:hover {
+      background-color: #7EEA69;
+      box-shadow: none;
+      border: solid 2px black;
+    }
+  }
+}
+
+.reference-links-container {
+  background-color: #624d7d;
   text-align: center;
-  height: 40vh;
-  padding: 10rem 15rem;
+  height: 70vh;
+
+  .games-link-container {
+    margin: 2rem;
+
+    h2{
+      font-size: 2.5rem;
+      padding: 2rem;
+    }
+  }
 }
 
 @media only screen and (max-width: 800px) {

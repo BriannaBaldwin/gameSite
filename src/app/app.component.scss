@@ -18,6 +18,8 @@ nav {
     color: rgba($color: #fff, $alpha: 0.8);
     display: inline-block;
     position: relative;
+    margin: 0 0.5rem;
+    padding: 0 0 0.5rem 0;
 
     &:hover {
       color: rgba($color: #fff, $alpha: 1);
@@ -27,7 +29,7 @@ nav {
       height: 5px;
       content: "";
       position: absolute;
-      background-color: #53e236;
+      background-color: #C399FA;
       width: 0%;
       bottom: 10px;
     }
