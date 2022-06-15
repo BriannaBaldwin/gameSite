@@ -5,18 +5,16 @@
 <div
   class="creators-container d-flex flex-wrap justify-content-around align-content-center"
 >
-  <div
-    class="creator-card"
-    *ngFor="let creator of creators"
-  >
+  <div class="creator-card" *ngFor="let creator of creators">
     <div class="creator-card-inner">
       <div class="creator-card-front">
-        <img
-          class="card-img-top"
-          src="{{ creator.img }}"
-          alt="Card image cap"
-          style="height: 13rem; width: 17rem;"
-        />
+        <div class="card-img-div" style=''>
+          <img
+            class="card-img-top"
+            src="{{ creator.img }}"
+            alt="Card image cap"
+          />
+        </div>
         <div class="card-body">
           <h5 class="card-title">{{ creator.name }}</h5>
           <p class="card-text">{{ creator.about }}</p>
@@ -27,22 +25,20 @@
           <li>
             <a href="{{ creator.socials.instagram }}" class="custom-pointer"
               ><i class="fa-brands fa-instagram fa-2x"></i>
-              <span>  @{{creator.socials.instagramTag}}</span>
+              <span> @{{ creator.socials.instagramTag }}</span>
             </a>
           </li>
           <li>
             <a href="{{ creator.socials.youtube }}" class="custom-pointer"
-              ><i class="fa-brands fa-youtube fa-2x"></i
-            >
-            <span>  @{{creator.socials.youtubeTag}}</span>
-          </a>
+              ><i class="fa-brands fa-youtube fa-2x"></i>
+              <span> @{{ creator.socials.youtubeTag }}</span>
+            </a>
           </li>
           <li>
             <a href="{{ creator.socials.twitch }}" class="custom-pointer"
-              ><i class="fa-brands fa-twitch fa-2x"></i
-            >
-            <span>  @{{creator.socials.twitchTag}}</span>
-          </a>
+              ><i class="fa-brands fa-twitch fa-2x"></i>
+              <span> @{{ creator.socials.twitchTag }}</span>
+            </a>
           </li>
         </ul>
       </div>
