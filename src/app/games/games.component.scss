@@ -15,22 +15,59 @@
   }
 }
 
+.content-container{
+  padding: 5rem;
+}
+
+.container{
+  margin-top:5%;
+
+  .row {
+    width: 100%;
+  }
+
+  .input-group {
+    width: 50%;
+  }
+
+  .btn {
+    background-color: #6C558B;
+    border-radius: 0;
+    &:hover{
+      color:#fff;
+    }
+  }
+
+
+  .input-text:focus{
+    box-shadow: 0px 0px 0px;
+    border-color:#6C558B;
+    outline: 0px;
+  }
+
+  .form-control {
+    border: 2px solid #6C558B;
+  }
+}
+
 .games-container {
   height: fit-content;
+  padding: 2%;
 
   .game {
-    max-width: 30%;
-    text-align: center;
-    align-content: space-around;
-    margin: 5rem;
-  }
+    border-radius: 5%;
+    height: 15rem;
+    width: 25rem;
+    overflow: hidden;
+    margin: 1rem;
+    transition: transform .2s;
 
-  .static {
-    position:absolute;
-    background: white;
-  }
-  .static:hover {
-    position:absolute;
-    opacity:0;
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      height: 100%;
+    }
   }
 }

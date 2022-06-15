@@ -2,9 +2,17 @@
   height: 100vh;
 
   .hero-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url("https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2021-08/210830-internet-cafe-china-jm-0950-78bef7.jpg");
+    background-image: url("https://images.pexels.com/photos/3945657/pexels-photo-3945657.jpeg");
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  h1 {
+    text-shadow: 1px 0 15px #000;
+  }
+  p {
+    text-shadow: 1px 0 10px #000;
   }
 }
 h1 {
@@ -15,7 +23,7 @@ p {
 }
 
 .about-container {
-  height: 70vh;
+  height: 80vh;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.9),
@@ -44,11 +52,10 @@ p {
 .reference-links-container {
   background-color: #624d7d;
   text-align: center;
-  height: 70vh;
+  height: 80vh;
 
   .games-link-container {
-    margin: 2rem;
-
+    padding-bottom: 5rem;
     h2{
       font-size: 2.5rem;
       padding: 2rem;
