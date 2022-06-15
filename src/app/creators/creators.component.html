@@ -1,19 +1,66 @@
-
 <div class="creators-hero d-flex justify-content-center align-items-center">
-    <h1>Our Creators</h1>
+  <h1>Our Creators</h1>
 </div>
 
-<div class='creators-container d-flex justify-content-center'>
-  <div class='creator'  *ngFor="let creator of creators">
-    <img src='{{creator.img}}'> <!-- Creator img -->
+<div
+  class="creators-container d-flex flex-wrap justify-content-around align-content-center"
+>
+  <div
+    class="creator-card"
+    style="width: 18.9rem; height: 26.40rem;"
+    *ngFor="let creator of creators"
+  >
+    <div class="creator-card-inner">
+      <div class="creator-card-front">
+        <img
+          class="card-img-top"
+          src="{{ creator.img }}"
+          alt="Card image cap"
+          style="height: 13rem; width: 17rem;"
+        />
+        <div class="card-body">
+          <h5 class="card-title">{{ creator.name }}</h5>
+          <p class="card-text">{{ creator.about }}</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="creator-card-back">
+        <ul class="justify-content-center list-group">
+          <li>
+            <a href="{{ creator.socials.instagram }}" class="custom-pointer"
+              ><i class="fa-brands fa-instagram fa-2x"></i>
+              <span>  @instagram</span>
+            </a>
+          </li>
+          <li>
+            <a href="{{ creator.socials.youtube }}" class="custom-pointer"
+              ><i class="fa-brands fa-youtube fa-2x"></i
+            >
+            <span>  @youtube</span>
+          </a>
+          </li>
+          <li>
+            <a href="{{ creator.socials.twitch }}" class="custom-pointer"
+              ><i class="fa-brands fa-twitch fa-2x"></i
+            >
+            <span>  @twitch</span>
+          </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class='creator' *ngFor="let creator of creators">
+    <img src='{{creator.img}}'>
     <span>
-      <span>{{ creator.name }}</span> <!-- Creator name -->
-      <p>{{ creator.about }}</p> <!-- Creator about -->
-      <ul class='justify-content-center list-group list-group-horizontal-md'> <!-- Creator socials -->
-        <li><a href='{{creator.socials.instagram}}' class='custom-pointer'><i class="fa-brands fa-instagram fa-2x"></i></a> <!-- instagram --></li>
-        <li><a href='{{creator.socials.youtube}}' class='custom-pointer'><i class="fa-brands fa-youtube fa-2x"></i></a> <!-- youtube --></li>
-        <li><a href='{{creator.socials.twitch}}' class='custom-pointer'><i class="fa-brands fa-twitch fa-2x"></i></a> <!-- twitch --></li>
+      <span>{{ creator.name }}</span>
+      <p>{{ creator.about }}</p>
+      <ul class='justify-content-center list-group list-group-horizontal-md'>
+        <li><a href='{{creator.socials.instagram}}' class='custom-pointer'><i class="fa-brands fa-instagram fa-2x"></i></a> </li>
+        <li><a href='{{creator.socials.youtube}}' class='custom-pointer'><i class="fa-brands fa-youtube fa-2x"></i></a> </li>
+        <li><a href='{{creator.socials.twitch}}' class='custom-pointer'><i class="fa-brands fa-twitch fa-2x"></i></a> </li>
       </ul>
     </span>
-  </div>
+  </div> -->
 </div>

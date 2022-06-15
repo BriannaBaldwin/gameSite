@@ -66,6 +66,17 @@ export class CreatorsComponent implements OnInit {
         youtube: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         twitch: 'https://www.twitch.tv/'
       }
+     },
+     {
+      id: 6,
+      name: 'BriRex',
+      img: 'https://i.pinimg.com/736x/7a/93/12/7a9312fb39fa495faf64458d36ffebd1.jpg',
+      about: 'Made this website, so she\'s pretty rad. The best at MarioKart.',
+      socials: {
+        instagram: 'https://www.instagram.com/?hl=en',
+        youtube: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        twitch: 'https://www.twitch.tv/'
+      }
      }
   ]
 
