@@ -20,12 +20,18 @@
   padding: 5rem;
 
   .creator-card {
+    width: 18.9rem;
+    margin: 2rem;
+
 
     .creator-card-inner {
       transition: transform 0.6s;
       transform-style: preserve-3d;
       box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
       text-align: center;
+      min-height: 26.40rem;
+      padding: 0.5rem;
+      background-color: #624D7D;
     }
 
     &:hover .creator-card-inner {
@@ -40,15 +46,18 @@
     .creator-card-back {
       transform: rotateY(180deg);
       position: absolute;
-      top: 0;
+      top: 25%;
+      display: flex;
+
+      justify-content: center;
       width: 100%;
-      padding: 5rem 0rem;
+
       li {
         list-style: none;
         padding: 1rem;
       }
       a {
-        color: #c399fa;
+        color: #F0E6FE;
         text-decoration: none;
         &:hover {
           color: #7eea69;
