@@ -9,6 +9,7 @@
           type="text"
           class="form-control input-text"
           placeholder="Search games...."
+          [(ngModel)]='query'
         />
         <div class="input-group-append">
           <button class="btn btn-lg custom-pointer" type="button">
@@ -23,7 +24,7 @@
     class="games-container d-flex justify-content-center align-items-center flex-wrap">
     <div
       class="game d-flex justify-content-center"
-      *ngFor="let game of games">
+      *ngFor="let game of games | search:'id,gameName':query">
       <a href='' class='custom-pointer'>
         <img src="{{ game.img }}" />
       </a>
