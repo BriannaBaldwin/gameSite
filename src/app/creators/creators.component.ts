@@ -19,8 +19,8 @@ export class CreatorsComponent implements OnInit {
         instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
         instagramTag: 'dalittleleaugers',
         youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
-        youtubeTag: 'dalittleleaugers',
-        twitch: 'https://www.twitch.tv/',
+        youtubeTag: 'PKILB',
+        twitch: 'https://www.twitch.tv/pkilb',
         twitchTag: 'PKILB'
       },
     },
@@ -32,11 +32,11 @@ export class CreatorsComponent implements OnInit {
         'Part time Fortnite gangsta. Favorite quote to say while playing Dark Souls: "FUCK"',
       socials: {
         instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
-        instagramTag: 'jackson',
+        instagramTag: '',
         youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
-        youtubeTag: 'jacksonyoutube',
+        youtubeTag: '',
         twitch: 'https://www.twitch.tv/',
-        twitchTag: 'jjtwitch'
+        twitchTag: ''
       },
     },
     {
@@ -46,11 +46,11 @@ export class CreatorsComponent implements OnInit {
       about: 'Smah Bros Ultimate Terry poser. Also a WoW god. ',
       socials: {
         instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
-        instagramTag: 'nehemiah',
+        instagramTag: '',
         youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
-        youtubeTag: 'nemotube',
+        youtubeTag: '',
         twitch: 'https://www.twitch.tv/',
-        twitchTag: 'nbtwitch'
+        twitchTag: ''
       },
     },
     {
@@ -74,7 +74,7 @@ export class CreatorsComponent implements OnInit {
       img: 'https://i.pinimg.com/736x/7a/93/12/7a9312fb39fa495faf64458d36ffebd1.jpg',
       about: "Made this website, so she's pretty rad. The best at MarioKart.",
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
+        instagram: 'https://www.instagram.com/dalittleleaugers/?igshield=YmMyMTA2M2Y=',
         instagramTag: '',
         youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
         youtubeTag: '',
@@ -84,17 +84,17 @@ export class CreatorsComponent implements OnInit {
     },
     {
       id: 6,
-      name: 'Ethan',
+      name: '7doenigmatic',
       img: 'https://images2.alphacoders.com/597/thumb-1920-597965.jpg',
       about:
         "No one plays the games he's on anymore because they're from like 2001.",
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
-        instagramTag: '',
+        instagram: 'https://www.instagram.com/7doenigmatic/?igshield=YmMyMTA2M2Y=',
+        instagramTag: '7doenigmatic',
         youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
         youtubeTag: '',
-        twitch: 'https://www.twitch.tv/',
-        twitchTag: ''
+        twitch: 'https://www.twitch.tv/7doenigmatic',
+        twitchTag: '7DOenigmatic'
       },
     },
   ];

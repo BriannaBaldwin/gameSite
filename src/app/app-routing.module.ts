@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CreatorsComponent } from './creators/creators.component';
 import { GamesComponent } from './games/games.component';
+import { Error404Component } from './404.component';
 
 const routes: Routes = [];
 
@@ -11,7 +12,8 @@ const routes: Routes = [];
     { path: 'home', component: HomeComponent },
     { path: 'creators', component: CreatorsComponent},
     { path: 'games', component: GamesComponent},
-    { path: '', redirectTo: 'home', pathMatch: 'full'}
+    { path: '404', component: Error404Component },
+    { path: '', redirectTo: '/home', pathMatch: 'full'}
   ])],
   exports: [RouterModule],
 })
