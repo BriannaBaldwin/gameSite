@@ -9,10 +9,10 @@ import { Component } from '@angular/core'
   `,
   styles: [`
     .errorContainer {
-      margin-top: 150px;
-      height: 45vh;
+      padding-top: 15rem;
+      height: 80vh;
       text-align: center;
-    }
+    },
     .errorImg {
       width: 250px;
     },

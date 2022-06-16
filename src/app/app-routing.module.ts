@@ -13,7 +13,8 @@ const routes: Routes = [];
     { path: 'creators', component: CreatorsComponent},
     { path: 'games', component: GamesComponent},
     { path: '404', component: Error404Component },
-    { path: '', redirectTo: '/home', pathMatch: 'full'}
+    { path: '', redirectTo: '/home', pathMatch: 'full'},
+    {path: '**', redirectTo: '/404', pathMatch: 'full'}
   ])],
   exports: [RouterModule],
 })
