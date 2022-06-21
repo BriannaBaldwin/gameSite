@@ -22,22 +22,22 @@
       </div>
       <div class="creator-card-back">
         <ul class="justify-content-center list-group">
-          <li>
-            <a href="{{ creator.socials.instagram }}" class="custom-pointer"
+          <li *ngIf="creator.socials?.instagram">
+            <a target='_blank' href="{{ creator.socials?.instagram }}" class="custom-pointer"
               ><i class="fa-brands fa-instagram fa-2x"></i>
-              <span> @{{ creator.socials.instagramTag }}</span>
+              <span> @{{ creator.socials?.instagramTag }}</span>
             </a>
           </li>
-          <li>
-            <a href="{{ creator.socials.youtube }}" class="custom-pointer"
+          <li *ngIf="creator.socials?.youtube">
+            <a target='_blank' href="{{ creator.socials?.youtube }}" class="custom-pointer"
               ><i class="fa-brands fa-youtube fa-2x"></i>
-              <span> @{{ creator.socials.youtubeTag }}</span>
+              <span> @{{ creator.socials?.youtubeTag }}</span>
             </a>
           </li>
-          <li>
-            <a href="{{ creator.socials.twitch }}" class="custom-pointer"
+          <li *ngIf="creator.socials?.twitch">
+            <a target='_blank' href="{{ creator.socials?.twitch }}" class="custom-pointer"
               ><i class="fa-brands fa-twitch fa-2x"></i>
-              <span> @{{ creator.socials.twitchTag }}</span>
+              <span> @{{ creator.socials?.twitchTag }}</span>
             </a>
           </li>
         </ul>

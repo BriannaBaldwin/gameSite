@@ -16,8 +16,8 @@ export class CreatorsComponent implements OnInit {
       img: 'https://t4.ftcdn.net/jpg/02/44/67/47/360_F_244674784_EDDlhrK0uqtP6Qlj1eHMi3b4vwTYmDXq.jpg',
       about: 'WoW god. LoL pro. MarioKart noob.',
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
-        instagramTag: 'dalittleleaugers',
+        instagram: 'https://www.instagram.com/dalittleleaguers?igshid=YmMyMTA2M2Y=',
+        instagramTag: 'dalittleleaguers',
         youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
         youtubeTag: 'PKILB',
         twitch: 'https://www.twitch.tv/pkilb',
@@ -31,11 +31,11 @@ export class CreatorsComponent implements OnInit {
       about:
         'Part time Fortnite gangsta. Favorite quote to say while playing Dark Souls: "FUCK"',
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
+        instagram: '',
         instagramTag: '',
-        youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
+        youtube: '',
         youtubeTag: '',
-        twitch: 'https://www.twitch.tv/',
+        twitch: '',
         twitchTag: ''
       },
     },
@@ -45,11 +45,11 @@ export class CreatorsComponent implements OnInit {
       img: 'https://images-na.ssl-images-amazon.com/images/I/51znPFzON0L.jpg',
       about: 'Smah Bros Ultimate Terry poser. Also a WoW god. ',
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
+        instagram: '',
         instagramTag: '',
-        youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
+        youtube: '',
         youtubeTag: '',
-        twitch: 'https://www.twitch.tv/',
+        twitch: '',
         twitchTag: ''
       },
     },
@@ -60,11 +60,11 @@ export class CreatorsComponent implements OnInit {
       about:
         'Claims to dislike toxic games like Leauge, then playes Valorant and PUPG',
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers?igshid=YmMyMTA2M2Y=',
+        instagram: '',
         instagramTag: '',
-        youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
+        youtube: '',
         youtubeTag: '',
-        twitch: 'https://www.twitch.tv/',
+        twitch: '',
         twitchTag: ''
       },
     },
@@ -74,11 +74,11 @@ export class CreatorsComponent implements OnInit {
       img: 'https://i.pinimg.com/736x/7a/93/12/7a9312fb39fa495faf64458d36ffebd1.jpg',
       about: "Made this website, so she's pretty rad. The best at MarioKart.",
       socials: {
-        instagram: 'https://www.instagram.com/dalittleleaugers/?igshield=YmMyMTA2M2Y=',
-        instagramTag: '',
-        youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
+        instagram: 'https://www.instagram.com/the_real_brirex?igshid=YmMyMTA2M2Y=',
+        instagramTag: 'the_real_brirex',
+        youtube: '',
         youtubeTag: '',
-        twitch: 'https://www.twitch.tv/',
+        twitch: '',
         twitchTag: ''
       },
     },
@@ -91,7 +91,7 @@ export class CreatorsComponent implements OnInit {
       socials: {
         instagram: 'https://www.instagram.com/7doenigmatic/?igshield=YmMyMTA2M2Y=',
         instagramTag: '7doenigmatic',
-        youtube: 'https://www.youtube.com/channel/UCNSokyuSZMTwtTVh_gY41_g',
+        youtube: '',
         youtubeTag: '',
         twitch: 'https://www.twitch.tv/7doenigmatic',
         twitchTag: '7DOenigmatic'
