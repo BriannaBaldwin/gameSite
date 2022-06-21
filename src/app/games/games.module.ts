@@ -1,8 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { NgModule, Pipe } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { SearchPipe } from './game.pipe';
+
+import { SearchPipe } from './games.pipe';
 
 import { GamesComponent } from './games.component';
 
@@ -15,11 +16,6 @@ import { GamesComponent } from './games.component';
         path: '',
         component: GamesComponent,
       },
-      // {
-      //   path: ':id',
-      //   component: ProductDetailComponent,
-      //   resolve: { resolvedData: ProductResolver },
-      // },
     ]),
   ],
   declarations: [GamesComponent, SearchPipe],
