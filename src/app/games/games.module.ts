@@ -6,6 +6,8 @@ import { RouterModule } from '@angular/router';
 import { SearchPipe } from './games.pipe';
 
 import { GamesComponent } from './games.component';
+import { GamePageComponent } from './game-page/game-page.component';
+import { SafePipe } from './game-page/game-page.pipe';
 
 @NgModule({
   imports: [
@@ -16,8 +18,12 @@ import { GamesComponent } from './games.component';
         path: '',
         component: GamesComponent,
       },
+      {
+        path: ':id',
+        component: GamePageComponent
+      }
     ]),
   ],
-  declarations: [GamesComponent, SearchPipe],
+  declarations: [GamesComponent, SearchPipe, GamePageComponent, SafePipe],
 })
 export class GamesModule {}

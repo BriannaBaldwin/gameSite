@@ -20,7 +20,7 @@
     <div
       class="game d-flex justify-content-center"
       *ngFor="let game of games | search: query">
-      <a href='' class='custom-pointer'>
+      <a [routerLink]="[game.id]" class="custom-pointer">
         <img src="{{ game.img }}" />
       </a>
     </div>

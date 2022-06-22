@@ -1,0 +1,18 @@
+<div class="game-hero d-flex justify-content-center align-items-center">
+  <h1>{{ game.gameName }}</h1>
+</div>
+
+<div class="game-container d-flex justify-content-center align-items-center flex-wrap">
+  <button (click)="checkLength()">Test</button>
+  <div class="video d-flex justify-content-center" *ngFor="let video of sortData | slice:0:end;">
+    <iframe
+    width = "560"
+    height ="315"
+      [src]="video.videoUrl | safe"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </div>
+</div>
