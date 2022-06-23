@@ -2,9 +2,18 @@
   <h1>{{ game.gameName }}</h1>
 </div>
 
+<div class='button-container'>
+  <button class='custom-pointer' (click)="checkShowMore()" *ngIf="showMore && sortVideos.length > 3">
+    <i class="fa-solid fa-arrow-down"></i>
+    Show More
+  </button>
+  <button class='custom-pointer' (click)="checkShowMore()" *ngIf="!showMore">
+    <i class="fa-solid fa-arrow-up"></i>
+    Show Less
+  </button>
+</div>
 <div class="game-container d-flex justify-content-center align-items-center flex-wrap">
-  <button (click)="checkLength()">Test</button>
-  <div class="video d-flex justify-content-center" *ngFor="let video of sortData | slice:0:end;">
+  <div class="video d-flex justify-content-center" *ngFor="let video of sortVideos | slice:0:end;">
     <iframe
     width = "560"
     height ="315"
