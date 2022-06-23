@@ -5,6 +5,7 @@ import { CreatorsComponent } from './creators/creators.component';
 import { GamesComponent } from './games/games.component';
 import { Error404Component } from './404.component';
 import { GamesModule } from './games/games.module';
+import { AdminComponent } from './admin/admin.component';
 
 const routes: Routes = [];
 
@@ -20,6 +21,7 @@ const routes: Routes = [];
       },
       { path: 'games', component: GamesModule },
       { path: '404', component: Error404Component },
+      { path: 'admin', component: AdminComponent },
       { path: '', redirectTo: '/home', pathMatch: 'full' },
       { path: '**', redirectTo: '/404', pathMatch: 'full' },
     ]),

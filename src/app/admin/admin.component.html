@@ -1,0 +1,26 @@
+<div class="admin-hero d-flex justify-content-center align-items-center">
+  <h1>Admin</h1>
+</div>
+
+<div>
+  <!-- <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
+    <button (click)="auth.logout({ returnTo:  })">
+      Log out
+    </button>
+  </ng-container>
+
+  <ng-template #loggedOut>
+    <button (click)="auth.loginWithRedirect()">Log in</button>
+  </ng-template> -->
+
+  <button (click)="auth.loginWithRedirect()">Log In</button>
+  <button >Log Out</button>
+
+  <div *ngIf="auth">
+    Admin Content
+  </div>
+
+  <div *ngIf="!auth">
+    Sorry, You Can't Access That :(
+  </div>
+</div>
