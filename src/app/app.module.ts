@@ -8,24 +8,20 @@ import { CreatorsComponent } from './creators/creators.component';
 import { GamesModule } from './games/games.module';
 import { AdminComponent } from './admin/admin.component';
 
-// Import module from SDK
-import { AuthModule } from '@auth0/auth0-angular';
+import { LoginComponent } from './admin/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CreatorsComponent,
-    AdminComponent
+    AdminComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     GamesModule,
-    AuthModule.forRoot({
-      domain: 'dev-2-ebrraw.us.auth0.com',
-      clientId: 'wn4Id2BX8HzFeizaFhTBykl0Nepwxufv'
-    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

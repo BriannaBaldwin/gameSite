@@ -3,24 +3,14 @@
 </div>
 
 <div>
-  <!-- <ng-container *ngIf="auth.isAuthenticated$ | async; else loggedOut">
-    <button (click)="auth.logout({ returnTo:  })">
-      Log out
-    </button>
-  </ng-container>
 
-  <ng-template #loggedOut>
-    <button (click)="auth.loginWithRedirect()">Log in</button>
-  </ng-template> -->
-
-  <button (click)="auth.loginWithRedirect()">Log In</button>
-  <button >Log Out</button>
-
-  <div *ngIf="auth">
+  <!-- if authenticated -->
+  <div *ngIf="">
     Admin Content
   </div>
 
-  <div *ngIf="!auth">
+  <!-- if not authenticated -->
+  <div *ngIf="">
     Sorry, You Can't Access That :(
   </div>
 </div>
